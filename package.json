@@ -1,0 +1,21 @@
+{
+  "name": "hardhat-contract-dumper",
+  "version": "1.0.0",
+  "description": "Runs through storage slots in submitted contract address. Tries to figure out their types.",
+  "main": "index.js",
+  "author": "Karuzzzo <clastone@mail.ru>",
+  "license": "MIT",
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "hardhat",
+    "hardhat-plugin"
+  ],
+  "devDependencies": {
+    "hardhat": "^2.0.0",
+    "ethers": "^5.5.1"
+  },
+  "peerDependencies": {
+    "hardhat": "^2.0.0"
+  }
+}
